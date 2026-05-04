@@ -1,0 +1,24 @@
+# scraper
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# data + model
+torch>=2.1.0
+torchvision>=0.16.0
+Pillow>=10.0.0
+
+# model validation
+scikit-learn>=1.3.0
+
+# database
+sqlalchemy>=2.0.0
+
+# UI
+streamlit>=1.32.0
+pandas>=2.0.0
+
+# utilities
+numpy>=1.24.0
+
+# testing
+pytest>=7.0.0

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data — images are large, regenerate with scraper
+data/images/
+
+# Model checkpoints — large binary files, regenerate with train.py
+model/checkpoints/
+
+# Database — regenerated at runtime
+database/*.db
+
+# Augmented images already covered by data/images/, but just in case
+data/images/aug_*
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
