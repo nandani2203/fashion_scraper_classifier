@@ -28,7 +28,7 @@ With these files you can skip steps 1–4 and go straight to `streamlit run app/
 ### Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/nandani2203/fashion_scraper_classifier
 cd fashion_scraper_and_classifier
 
 python -m venv venv
